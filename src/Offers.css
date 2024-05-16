@@ -1,0 +1,150 @@
+.offer-holder {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background: var(--Darkest, #111);
+    height: 100%;
+    padding-top: 25px;
+}
+
+.cover {
+    height: 230px;
+    border-radius: 8px;
+    width: 92%;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 25px;
+}
+
+#box-offer {
+    background-image: url('./assets/photo-colorful-gradient-background-1.png');
+    position: relative;
+}
+
+.person {
+    transform: scale(1.5);
+    position: absolute;
+    right: 35px;
+    bottom: 34px;
+    overflow: hidden;
+}
+
+.offer-container {
+
+    padding-left: 12px;
+
+    .head {
+        color: #EBBB79;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+
+    .offers {
+       text-transform: uppercase; 
+       font-size: 14px;
+       line-height: 12px;
+    }
+
+    .p-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 8px;
+        height: 40%;
+        color: white;
+    }
+
+    .p-container:nth-child(2){
+        font-size: 12px;
+    }
+
+    .grey {
+        color: var(--Text-Subtle, #9D9D9D);
+    }
+}
+
+#day-offer {
+    background-image: url('./assets/purple-wall-with-space-1.png');
+    position: relative;
+    overflow: hidden;
+
+}
+    
+.squares {
+    position: absolute;
+    right: 50px;
+    top: 45px;
+    transform: scale(1.5);
+}
+
+
+.offer-container-day {
+    color: white;
+    padding-left: 15px;
+
+    .head {
+        color: #EBBB79;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .offers {
+        text-transform: uppercase; 
+        font-size: 14px;
+        line-height: 18px;
+     }
+
+     .p-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 8px;
+        /* border: white solid 1px; */
+        height: 40%;
+        width: 70%;
+        color: white;
+    }
+
+    .p-container:nth-child(2){
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+}
+
+.tag {
+    transform: scale(1.4);
+    position: absolute;
+    right: 0;
+    top: 53px;
+    left: 295px;
+
+}
+
+
+.offers {
+    font-size: 25px;
+}
+
+.btn {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 119px;
+    height: 35px;
+    margin-top: 25px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer
+}
